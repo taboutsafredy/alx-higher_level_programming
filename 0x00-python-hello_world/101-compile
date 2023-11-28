@@ -1,0 +1,8 @@
+#!/bin/bash
+PYFILEc=$(basename -- "$PYFILE" | cut -d. -f1)
+
+python3 -m py_compile $PYFILE
+
+mv __pycache__/$PYFILEc.cpython-*.pyc "$PYFILEc.pyc"
+rm -r "__pycache__"
+echo "Compiling $PYFILE ..."

@@ -1,0 +1,52 @@
+The Zen of Python by Tim Peters
+Les "10 oeufs de Paques de python"
+
+1. Beautiful is better than ugly.(Beau vaut mieux que laid.)
+	Ce principe rapelle aux SWE que la beaut" du code est importante.
+	Il est encouragé d'ecrire du code propre, lisible et esthétiquement agreable.
+	PS: "Coding is art." by @th3fr3dy
+
+2. Explicit is better than implicit. (Explicite vaut mieux qu'implicite.)
+	Ici Python nous demande d'etre explicte dans notre maniere d'écrire du code.
+	Eviter au maximum les ambiguités et les supposition.
+	PS : "Clair, Explicite et efficace." by @th3fr3dy
+
+3. Simple is better than complex.(Simple vaut mieux que complexe.)
+	En programmation c'est la simplicité qui est valorisé.
+	Le nombre de ligne de code ecrit ne vaut pas grand chose.
+	Chaque probleme que nous devons resoudre en tant que SWE a toujours une solution
+	bien plus simple et plus naturel.
+	PS: "C'est cette solution que tu dois chercher ne te lance pas aveuglément dans la code." by @th3fr3dy
+
+4. Complex is better than complicated.(Complexe vaut mieux que compliqué.)
+	C'est vrai parfois la complexité est inévitable, mais il est preferable d'avoir un code complexe plutot que compliqué. Qu'est ce qu'on doit entendre par complexe et compliqué ?
+Complexe dans la mesure ou la complexité decoule naturelement du probleme a résoudre.
+Compliqué dans la mesure ou vous avez une conception confuse du probleme.
+
+5. Flat is better nested.(Plat vaut mieux que imbriqué.)
+	Ne prenez pas l'habitude d'imbriquer excessivement les structures de controle.
+	un code moins profond est toujours plus lisible.
+
+6. Sparse is better than dense.(Clairsemé vaut mieux que dense.)
+	Toujours privilegier la clarté dans le code.
+	PS: "Evitez d'écrire du code avec trop d'instruction sur une seule ligne." by @th3fr3dy
+
+7. Readability counts.(LA lisibilité compte.)
+	En Python la lisibilité est une propriété principale.
+	PS: Vous devez ecrire du code comprehensible par le developpeurrs, meme ceux qui ne sont pas familliers avec votre maniere de coder. by @th3fr3dy
+
+8. Special cases aren't special enough to break the rules.(Les cas spéciaux ne sont pas suffisament spéciaux pour enfreindre les regles.)
+	Suivez les regles de covertion deja établis par python plutot que de se mettre a coder des exeptions.
+	PS: Ainsi, le code devient beaucoup plus coherent et intuitif. @th3fr3dy
+
+9. Although praticality beats purity.(Bien que la praticicté l'emporte sur la pureté.)
+	PArfois il est necessaire de faire des compriomis pour resoudre des cas pratique.
+	LA pureté et la propreté de code ne dois jamais entraver la realisation des taches pratiques.
+
+10. Errors should never pass silently.(Les erreurs ne devraient jamais passer silencieusement.)
+	Vous ne devez jamais ignorer ou cacher les erreurs qui surgissent dans votre code.
+	si quelque chose ne vas pas, le code doit signaler l'Erreur pour que le SWE puisse la corriger.
+	
+
+That's my resume of The Zen of Python by Tim Peters.
+@th3fr3dy

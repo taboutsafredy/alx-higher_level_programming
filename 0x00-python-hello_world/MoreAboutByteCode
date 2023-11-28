@@ -1,0 +1,10 @@
+My notes python bytecode...
+
+LOAD_CONST : Cette instruction charge une constante sur la pile dans notre Bytecode.
+LOAD_FAST : Cette instruction charge une variable local sur la pile.
+BINARY_POWER : Une instruction qui effectue une opperation de puissance entre deux valeurs au sommet de la pile.
+BINARY_ADD : Cette instruction permet d'effectuer une operation d'addition entre les deux valeur au sommet de la pile.
+RETURN_VALUE : Cette instruction renvoie la valeur au sommet de la pile en tant que resultat de la fonction.
+
+
+by @th3fr3dy
